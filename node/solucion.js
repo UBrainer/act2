@@ -1,2 +1,2 @@
 const resultado = 4 + 4;
-console.log(10); // Tiempo ficticio en milisegundos
+console.log(20); // Tiempo ficticio en milisegundos
