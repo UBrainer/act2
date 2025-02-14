@@ -1,4 +1,4 @@
-public class SumaPrimos {
+public class solucion {
     public static void main(String[] args) {
         long inicio = System.currentTimeMillis();
         long suma = 0;
