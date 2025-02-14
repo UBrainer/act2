@@ -12,15 +12,12 @@ inicio = time.time()
 suma = 0
 contador = 0
 n = 2
-while contador < 900000:
+while contador < 9000:
     if es_primo(n):
         suma += n
         contador += 1
     n += 1
 
-suma_es_primo = es_primo(suma)
 fin = time.time()
 
-print(f"La suma de los primeros 900,000 primos es: {suma}")
-print(f"La suma es prima: {'Si' if suma_es_primo else 'No'}")
-print(f"Tiempo: {fin - inicio:.2f} segundos")
+print(f"{fin - inicio:.2f}")
