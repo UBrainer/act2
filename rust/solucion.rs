@@ -16,7 +16,7 @@ fn main() {
     let mut contador = 0;
     let mut n = 2;
 
-    while contador < 900000 {
+    while contador < 9000 {
         if es_primo(n) {
             suma += n;
             contador += 1;
@@ -24,10 +24,7 @@ fn main() {
         n += 1;
     }
 
-    let suma_es_primo = es_primo(suma);
     let duracion = inicio.elapsed();
 
-    println!("La suma de los primeros 900,000 primos es: {}", suma);
-    println!("La suma es prima: {}", if suma_es_primo { "Si" } else { "No" });
-    println!("Tiempo: {:.2?}", duracion);
+    println!("{:.2}", duracion.as_secs_f64());
 }
