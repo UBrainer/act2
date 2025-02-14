@@ -1,1 +1,1 @@
-La solición de los primeros números primos usando node es: 397219321.
+La suma de los primeros 9000 números primos basándonos en node es: 397219321
