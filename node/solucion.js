@@ -11,7 +11,7 @@ let suma = 0;
 let contador = 0;
 let n = 2;
 
-while (contador < 900000) {
+while (contador < 9000) {
     if (esPrimo(n)) {
         suma += n;
         contador++;
@@ -19,9 +19,6 @@ while (contador < 900000) {
     n++;
 }
 
-const sumaEsPrimo = esPrimo(suma);
 const fin = Date.now();
 
-console.log(`La suma de los primeros 900,000 primos es: ${suma}`);
-console.log(`La suma es prima: ${sumaEsPrimo ? 'Si' : 'No'}`);
-console.log(`Tiempo: ${(fin - inicio) / 1000} segundos`);
+console.log(`${(fin - inicio) / 1000}`);
