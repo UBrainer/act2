@@ -1,1 +1,1 @@
-La suma de los primeros 9000 números primos según java es: 397219321
+La suma de los primeros 9000 números primos según c++ es: 397219321
