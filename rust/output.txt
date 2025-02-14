@@ -1,1 +1,1 @@
-
+La suma de los primeros 9000 números primos basándonos en rust es: 397219321
