@@ -1,5 +1,5 @@
 FROM gcc:latest
 WORKDIR /app
 COPY solucion.cpp .
-RUN g++ -o solucion solucion.cpp
-CMD ["./solucion"]
+RUN g++ solucion.cpp -o solucion
+CMD ["./solucion.cpp"]
